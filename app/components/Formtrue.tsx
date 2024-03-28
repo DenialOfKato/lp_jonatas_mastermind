@@ -11,9 +11,9 @@ export default function Formtrue() {
 
     const [ message, setMessage] = useState("");
     
-    const valorInput = e => setData({...data, [e.target.name]: e.target.value});
+    const valorInput = (e: { target: { name: any; value: any; }; }) => setData({...data, [e.target.name]: e.target.value});
 
-    const sendForm = async (e) => {
+    const sendForm = async (e: { preventDefault: () => void; }) => {
         e.preventDefault();
         
         const options = {
