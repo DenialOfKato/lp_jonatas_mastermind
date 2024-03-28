@@ -17,7 +17,7 @@ export default function HeroObg() {
                 <div className='max-w-[1030px]'>
                 <div className="m-12 gap-5 grid grid-cols-1 lg:grid-cols-2 items-center">
                     
-                <Logotipo src={imageCell} className='absolute bottom-0 right-0 hidden lg:max-w-[60%] xl:max-w-[45%] lg:block' />
+                <Logotipo src={imageCell} className='absolute bottom-0 right-0 hidden lg:max-w-[60%] xl:max-w-[45%] lg:block' alt='logotipo'/>
                     <div className="text-white flex flex-col items-center text-center lg:items-start lg:text-left gap-8">     
                         <h1 className="sans uppercase font-white text-5xl max-w-[420px]">Falta <strong>apenas um passo</strong>!</h1>
                         <p className='text-[20px]'>Clique no botão abaixo e entre no <strong>grupo exclusivo da palestra</strong> MasterMind Centro Empresarial Pereira Barreto!</p>

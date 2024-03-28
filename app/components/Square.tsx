@@ -41,7 +41,7 @@ export default function Square() {
         {/* Texto */}
         <div className="flex-col items-center gap-2.5 flex">
         
-            <div className="text-center text-neutral-200 text-base ">"Inspirador! A palestra ofereceu insights poderosos para melhorar minha vida. Saí de lá motivada e com estratégias claras para o sucesso."</div>
+            <div className="text-center text-neutral-200 text-base "> Inspirador! A palestra ofereceu insights poderosos para melhorar minha vida. Saí de lá motivada e com estratégias claras para o sucesso.</div>
             
             <div className="text-center text-neutral-200 font-bold">– Sofia Lima</div>
         
@@ -70,7 +70,7 @@ export default function Square() {
         {/* Texto */}
         <div className="flex-col items-center gap-2.5 flex">
         
-            <div className="text-center text-neutral-200 text-base ">"Palestra envolvente e esclarecedora. Recebi ferramentas práticas para impulsionar meu crescimento pessoal. Recomendo!"</div>
+            <div className="text-center text-neutral-200 text-base ">Palestra envolvente e esclarecedora. Recebi ferramentas práticas para impulsionar meu crescimento pessoal. Recomendo!</div>
             
             <div className="text-center text-neutral-200 font-bold">– Rafael Santos</div>
         
@@ -98,7 +98,7 @@ export default function Square() {
         {/* Texto */}
         <div className="flex-col items-center gap-2.5 flex">
         
-            <div className="text-center text-neutral-200 text-base ">"Incrível! A palestra superou minhas expectativas. Sai cheia de energia e determinação para alcançar meus objetivos. Imperdível!"</div>
+            <div className="text-center text-neutral-200 text-base ">Incrível! A palestra superou minhas expectativas. Sai cheia de energia e determinação para alcançar meus objetivos. Imperdível!</div>
             
             <div className="text-center text-neutral-200 font-bold">– Luiz Oliveira</div>
         
