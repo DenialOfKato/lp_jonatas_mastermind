@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Mozaic GEO';
+    src: url('MozaicGEO-Regular.eot');
+    src: local('Mozaic GEO Regular'), local('MozaicGEO-Regular'),
+        url('MozaicGEO-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MozaicGEO-Regular.woff2') format('woff2'),
+        url('MozaicGEO-Regular.woff') format('woff'),
+        url('MozaicGEO-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic GEO';
+    src: url('MozaicGEO-ExtraLight.eot');
+    src: local('Mozaic GEO Extra Light'), local('MozaicGEO-ExtraLight'),
+        url('MozaicGEO-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('MozaicGEO-ExtraLight.woff2') format('woff2'),
+        url('MozaicGEO-ExtraLight.woff') format('woff'),
+        url('MozaicGEO-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic GEO';
+    src: url('MozaicGEO-ExtraBlack.eot');
+    src: local('Mozaic GEO Extra Black'), local('MozaicGEO-ExtraBlack'),
+        url('MozaicGEO-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('MozaicGEO-ExtraBlack.woff2') format('woff2'),
+        url('MozaicGEO-ExtraBlack.woff') format('woff'),
+        url('MozaicGEO-ExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic GEO';
+    src: url('MozaicGEO-Bold.eot');
+    src: local('Mozaic GEO Bold'), local('MozaicGEO-Bold'),
+        url('MozaicGEO-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MozaicGEO-Bold.woff2') format('woff2'),
+        url('MozaicGEO-Bold.woff') format('woff'),
+        url('MozaicGEO-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic GEO';
+    src: url('MozaicGEO-Medium.eot');
+    src: local('Mozaic GEO Medium'), local('MozaicGEO-Medium'),
+        url('MozaicGEO-Medium.eot?#iefix') format('embedded-opentype'),
+        url('MozaicGEO-Medium.woff2') format('woff2'),
+        url('MozaicGEO-Medium.woff') format('woff'),
+        url('MozaicGEO-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic GEO';
+    src: url('MozaicGEO-ExtraBold.eot');
+    src: local('Mozaic GEO Extra Bold'), local('MozaicGEO-ExtraBold'),
+        url('MozaicGEO-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('MozaicGEO-ExtraBold.woff2') format('woff2'),
+        url('MozaicGEO-ExtraBold.woff') format('woff'),
+        url('MozaicGEO-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic GEO';
+    src: url('MozaicGEO-Light.eot');
+    src: local('Mozaic GEO Light'), local('MozaicGEO-Light'),
+        url('MozaicGEO-Light.eot?#iefix') format('embedded-opentype'),
+        url('MozaicGEO-Light.woff2') format('woff2'),
+        url('MozaicGEO-Light.woff') format('woff'),
+        url('MozaicGEO-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic GEO';
+    src: url('MozaicGEO-Black.eot');
+    src: local('Mozaic GEO Black'), local('MozaicGEO-Black'),
+        url('MozaicGEO-Black.eot?#iefix') format('embedded-opentype'),
+        url('MozaicGEO-Black.woff2') format('woff2'),
+        url('MozaicGEO-Black.woff') format('woff'),
+        url('MozaicGEO-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic GEO';
+    src: url('MozaicGEO-Thin.eot');
+    src: local('Mozaic GEO Thin'), local('MozaicGEO-Thin'),
+        url('MozaicGEO-Thin.eot?#iefix') format('embedded-opentype'),
+        url('MozaicGEO-Thin.woff2') format('woff2'),
+        url('MozaicGEO-Thin.woff') format('woff'),
+        url('MozaicGEO-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic HUM';
+    src: url('MozaicHUM-Light.eot');
+    src: local('Mozaic HUM Light'), local('MozaicHUM-Light'),
+        url('MozaicHUM-Light.eot?#iefix') format('embedded-opentype'),
+        url('MozaicHUM-Light.woff2') format('woff2'),
+        url('MozaicHUM-Light.woff') format('woff'),
+        url('MozaicHUM-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic HUM';
+    src: url('MozaicHUM-Black.eot');
+    src: local('Mozaic HUM Black'), local('MozaicHUM-Black'),
+        url('MozaicHUM-Black.eot?#iefix') format('embedded-opentype'),
+        url('MozaicHUM-Black.woff2') format('woff2'),
+        url('MozaicHUM-Black.woff') format('woff'),
+        url('MozaicHUM-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic HUM';
+    src: url('MozaicHUM-ExtraLight.eot');
+    src: local('Mozaic HUM Extra Light'), local('MozaicHUM-ExtraLight'),
+        url('MozaicHUM-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('MozaicHUM-ExtraLight.woff2') format('woff2'),
+        url('MozaicHUM-ExtraLight.woff') format('woff'),
+        url('MozaicHUM-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic HUM';
+    src: url('MozaicHUM-Medium.eot');
+    src: local('Mozaic HUM Medium'), local('MozaicHUM-Medium'),
+        url('MozaicHUM-Medium.eot?#iefix') format('embedded-opentype'),
+        url('MozaicHUM-Medium.woff2') format('woff2'),
+        url('MozaicHUM-Medium.woff') format('woff'),
+        url('MozaicHUM-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic HUM';
+    src: url('MozaicHUM-ExtraBold.eot');
+    src: local('Mozaic HUM Extra Bold'), local('MozaicHUM-ExtraBold'),
+        url('MozaicHUM-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('MozaicHUM-ExtraBold.woff2') format('woff2'),
+        url('MozaicHUM-ExtraBold.woff') format('woff'),
+        url('MozaicHUM-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic HUM';
+    src: url('MozaicHUM-ExtraBlack.eot');
+    src: local('Mozaic HUM Extra Black'), local('MozaicHUM-ExtraBlack'),
+        url('MozaicHUM-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('MozaicHUM-ExtraBlack.woff2') format('woff2'),
+        url('MozaicHUM-ExtraBlack.woff') format('woff'),
+        url('MozaicHUM-ExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic GEO';
+    src: url('MozaicGEO-SemiBold.eot');
+    src: local('Mozaic GEO Semi Bold'), local('MozaicGEO-SemiBold'),
+        url('MozaicGEO-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('MozaicGEO-SemiBold.woff2') format('woff2'),
+        url('MozaicGEO-SemiBold.woff') format('woff'),
+        url('MozaicGEO-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic HUM';
+    src: url('MozaicHUM-Bold.eot');
+    src: local('Mozaic HUM Bold'), local('MozaicHUM-Bold'),
+        url('MozaicHUM-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MozaicHUM-Bold.woff2') format('woff2'),
+        url('MozaicHUM-Bold.woff') format('woff'),
+        url('MozaicHUM-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic HUM';
+    src: url('MozaicHUM-Regular.eot');
+    src: local('Mozaic HUM Regular'), local('MozaicHUM-Regular'),
+        url('MozaicHUM-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MozaicHUM-Regular.woff2') format('woff2'),
+        url('MozaicHUM-Regular.woff') format('woff'),
+        url('MozaicHUM-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic';
+    src: url('MozaicItalic-ExtraLight.eot');
+    src: local('Mozaic Italic Extra Light'), local('MozaicItalic-ExtraLight'),
+        url('MozaicItalic-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('MozaicItalic-ExtraLight.woff2') format('woff2'),
+        url('MozaicItalic-ExtraLight.woff') format('woff'),
+        url('MozaicItalic-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic';
+    src: url('MozaicItalic-Regular.eot');
+    src: local('Mozaic Italic Regular'), local('MozaicItalic-Regular'),
+        url('MozaicItalic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MozaicItalic-Regular.woff2') format('woff2'),
+        url('MozaicItalic-Regular.woff') format('woff'),
+        url('MozaicItalic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic';
+    src: url('MozaicItalic-ExtraBlack.eot');
+    src: local('Mozaic Italic Extra Black'), local('MozaicItalic-ExtraBlack'),
+        url('MozaicItalic-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('MozaicItalic-ExtraBlack.woff2') format('woff2'),
+        url('MozaicItalic-ExtraBlack.woff') format('woff'),
+        url('MozaicItalic-ExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic';
+    src: url('MozaicItalic-Light.eot');
+    src: local('Mozaic Italic Light'), local('MozaicItalic-Light'),
+        url('MozaicItalic-Light.eot?#iefix') format('embedded-opentype'),
+        url('MozaicItalic-Light.woff2') format('woff2'),
+        url('MozaicItalic-Light.woff') format('woff'),
+        url('MozaicItalic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic';
+    src: url('MozaicItalic-SemiBold.eot');
+    src: local('Mozaic Italic Semi Bold'), local('MozaicItalic-SemiBold'),
+        url('MozaicItalic-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('MozaicItalic-SemiBold.woff2') format('woff2'),
+        url('MozaicItalic-SemiBold.woff') format('woff'),
+        url('MozaicItalic-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic';
+    src: url('MozaicItalic-Medium.eot');
+    src: local('Mozaic Italic Medium'), local('MozaicItalic-Medium'),
+        url('MozaicItalic-Medium.eot?#iefix') format('embedded-opentype'),
+        url('MozaicItalic-Medium.woff2') format('woff2'),
+        url('MozaicItalic-Medium.woff') format('woff'),
+        url('MozaicItalic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic HUM';
+    src: url('MozaicHUM-Thin.eot');
+    src: local('Mozaic HUM Thin'), local('MozaicHUM-Thin'),
+        url('MozaicHUM-Thin.eot?#iefix') format('embedded-opentype'),
+        url('MozaicHUM-Thin.woff2') format('woff2'),
+        url('MozaicHUM-Thin.woff') format('woff'),
+        url('MozaicHUM-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic';
+    src: url('MozaicItalic-Bold.eot');
+    src: local('Mozaic Italic Bold'), local('MozaicItalic-Bold'),
+        url('MozaicItalic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MozaicItalic-Bold.woff2') format('woff2'),
+        url('MozaicItalic-Bold.woff') format('woff'),
+        url('MozaicItalic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic HUM';
+    src: url('MozaicHUM-SemiBold.eot');
+    src: local('Mozaic HUM Semi Bold'), local('MozaicHUM-SemiBold'),
+        url('MozaicHUM-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('MozaicHUM-SemiBold.woff2') format('woff2'),
+        url('MozaicHUM-SemiBold.woff') format('woff'),
+        url('MozaicHUM-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic';
+    src: url('MozaicItalic-Black.eot');
+    src: local('Mozaic Italic Black'), local('MozaicItalic-Black'),
+        url('MozaicItalic-Black.eot?#iefix') format('embedded-opentype'),
+        url('MozaicItalic-Black.woff2') format('woff2'),
+        url('MozaicItalic-Black.woff') format('woff'),
+        url('MozaicItalic-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic';
+    src: url('MozaicItalic-ExtraBold.eot');
+    src: local('Mozaic Italic Extra Bold'), local('MozaicItalic-ExtraBold'),
+        url('MozaicItalic-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('MozaicItalic-ExtraBold.woff2') format('woff2'),
+        url('MozaicItalic-ExtraBold.woff') format('woff'),
+        url('MozaicItalic-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mozaic';
+    src: url('MozaicItalic-Thin.eot');
+    src: local('Mozaic Italic Thin'), local('MozaicItalic-Thin'),
+        url('MozaicItalic-Thin.eot?#iefix') format('embedded-opentype'),
+        url('MozaicItalic-Thin.woff2') format('woff2'),
+        url('MozaicItalic-Thin.woff') format('woff'),
+        url('MozaicItalic-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
